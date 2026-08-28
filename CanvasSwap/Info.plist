@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Canvas Swap uses the local network to find and connect with nearby players.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Canvas Swap uses Bluetooth to find and connect with nearby players even when Wi-Fi is unavailable.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Canvas Swap uses Bluetooth to find and connect with nearby players.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_canvas-swap._tcp</string>
+		<string>_canvas-swap._udp</string>
+	</array>
+</dict>
+</plist>
